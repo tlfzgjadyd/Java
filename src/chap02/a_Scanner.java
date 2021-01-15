@@ -10,5 +10,6 @@ public class a_Scanner {
         Scanner sc = new Scanner(System.in);
         int money = sc.nextInt();
         System.out.println(money+"원은 $"+(money/(double)1100)+"입니다.");
+        sc.close();
     }
 }

@@ -13,5 +13,7 @@ public class b_NumberSame {
             System.out.println("Yes! 10의 자리와 1의 자리가 같습니다.");
         else
             System.out.println("다릅니다");
+
+        sc.close();
     }
 }
