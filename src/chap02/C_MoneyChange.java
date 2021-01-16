@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class c_MoneyChange {
+public class C_MoneyChange {
     public static void main(String[] args) {
         System.out.print("금액을 입력하시오>>");
         Scanner sc = new Scanner(System.in);

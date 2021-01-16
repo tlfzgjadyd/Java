@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class i_Circle {
+public class I_Circle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("원의 중심과 반지름 입력>>");

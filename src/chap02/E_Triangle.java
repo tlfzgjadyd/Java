@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class e_Triangle {
+public class E_Triangle {
     public static void main(String[] args) {
         System.out.print("정수 3개를 입력하시오>>");
         Scanner sc = new Scanner(System.in);

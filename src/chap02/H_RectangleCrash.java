@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class h_RectangleCrash {
+public class H_RectangleCrash {
     
     //문제에서 제공되는 함수,
     // 점 (x, y)가 (rectx1, recty1), (rectx2, recty2)의 사각형 안에 있으면 true를 리턴한다

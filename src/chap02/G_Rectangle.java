@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class g_Rectangle {
+public class G_Rectangle {
     public static void main(String[] args) {
         System.out.print("점 (x,y)의 좌표를 입력하시오>>");
         Scanner sc = new Scanner(System.in);

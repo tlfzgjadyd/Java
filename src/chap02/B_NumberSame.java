@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class b_NumberSame {
+public class B_NumberSame {
     public static void main(String args[]){
         System.out.print("2자리수 정수 입력(10~99)>>");
         Scanner sc = new Scanner(System.in);

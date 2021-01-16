@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class f_Game369 {
+public class F_Game369 {
     public static void main(String[] args) {
         System.out.print("1~99 사이의 정수를 입력하시오>>");
         Scanner sc = new Scanner(System.in);

@@ -4,7 +4,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class d_Middle {
+public class D_Middle {
     public static void main(String[] args) {
         System.out.print("정수 3개 입력>>");
         Scanner sc = new Scanner(System.in);
