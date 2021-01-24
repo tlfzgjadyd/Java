@@ -25,6 +25,6 @@ public class N_ArraySubject {
             else
                 System.out.println(course[index]+"의 점수는 "+score[index]);
         }
-
+        sc.close();
     }
 }

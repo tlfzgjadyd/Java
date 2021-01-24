@@ -19,6 +19,7 @@ public class C_Star {
                 System.out.println();
             }
         }
+        sc.close();
     }
 
 }

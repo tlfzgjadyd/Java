@@ -14,6 +14,7 @@ public class C_StarBy2For {
                 System.out.print("*");
          System.out.println();
         }
+        sc.close();
     }
 
 }
