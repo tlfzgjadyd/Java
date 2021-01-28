@@ -1,5 +1,7 @@
 package chap05;
 
+/*작업폴더, 프로젝트명 등이 문제에서 하라고 한것과 다르므로 주의*/
+
 import java.util.Scanner;
 abstract class Converter{
     abstract protected double convert(double src); //추상 메소드
@@ -18,12 +20,11 @@ abstract class Converter{
     }
 }
 class Won2Dollar extends Converter{
-    private int money;
-    Won2Dollar(int money){
-        this.money = money;
+    Won2Dollar(int raio){
+        this.ratio=ratio;
     }
     protected double convert(double src){
-        return (src/1200);
+        return (src/ratio);
     }
     protected String getSrcString(){
         return "원";
