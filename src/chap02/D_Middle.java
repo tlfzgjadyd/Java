@@ -12,9 +12,11 @@ public class D_Middle {
         int num2=sc.nextInt();
         int num3=sc.nextInt();
         int middle=num1;
-        if((num2<=num1&&num2>=num3)||(num2>=num1&&num2<=num3))
+        if((num1-num2)*(num1-num3)<=0)
+            middle=num1;
+        else if((num2-num1)*(num2-num3)<=0)
             middle=num2;
-        else if ((num3<=num1&&num3>=num2)||(num3>=num1&&num3<=num2))
+        else
             middle=num3;
         System.out.println("중간 값은"+middle);
         sc.close();
